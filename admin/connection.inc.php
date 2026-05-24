@@ -1,6 +1,6 @@
 <?php
      session_start();
-     $con = mysqli_connect("localhost","root","","ecom");
+     $con = mysqli_connect("localhost","root","Admin","ecom");
     define('SERVER_PATH',$_SERVER['DOCUMENT_ROOT'].'/ecom/');
     define('SITE_PATH','http://localhost/ecom/');
 
